@@ -10,5 +10,10 @@
     <bean id="musicBean"
           class="ru.filippov.springcourse.ClassicalMusic">
     </bean>
+<bean id ="musicPlayer"
+class="ru.filippov.springcourse.MusicPlayer">
+    <constructor-arg ref="musicBean" />
 
+
+</bean>
 </beans>
