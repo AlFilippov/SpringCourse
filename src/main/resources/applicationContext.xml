@@ -13,7 +13,5 @@
 <bean id ="musicPlayer"
 class="ru.filippov.springcourse.MusicPlayer">
     <constructor-arg ref="musicBean" />
-
-
 </bean>
 </beans>
